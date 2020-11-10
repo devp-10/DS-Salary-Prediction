@@ -156,4 +156,3 @@ def scrape_jobs(keyword, num_jobs, verbose):
             break
 
     return pd.DataFrame(jobs)
-
