@@ -1,7 +1,7 @@
-import DS_salary_scraper as ss
+import data_scraping as ds
 import pandas as pd
 
-df = ss.scrape_jobs("data scientist", 1000, False, "/Users/devpatel/PersonalProjects/chromedriver", 15)
+df = ds.scrape_jobs("data scientist", 1000, False, "/Users/devpatel/PersonalProjects/chromedriver", 15)
 
 df['hourly'] = df['Salary Estimate'].apply(lambda x: 1 if 'per hour' in x.lower() else 0)
 df['employer_provided'] = df['Salary Estimate'].apply(lambda x: 1 if 'employer provided salary:' in x.lower() else 0)
