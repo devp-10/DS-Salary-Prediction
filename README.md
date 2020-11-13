@@ -29,3 +29,11 @@ Just for reference, the cleaned version on the scraped dataset in [here](DS_sala
 * Matplotlib
 * Seaborn
 * SciKitLearn
+* Flask
+* Docker
+* AWS
+
+### References:
+* This project is inspired from a Youtuber named [Ken Jee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
+* Article for [scraping jobs from Glassdoor.com](https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905)
+* Article for [deploying ML models to cloud](https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf)
